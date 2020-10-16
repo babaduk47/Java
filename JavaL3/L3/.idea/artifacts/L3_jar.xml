@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact name="L3:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/L3_jar</output-path>
+    <root id="root">
+      <element id="archive" name="L3.jar">
+        <element id="module-output" name="L3" />
+      </element>
+      <element id="artifact" artifact-name="unnamed" />
+    </root>
+  </artifact>
+</component>
