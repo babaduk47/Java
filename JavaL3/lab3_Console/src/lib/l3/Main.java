@@ -31,18 +31,18 @@ public class Main {
             return;
         }
         SignalProcessing signalProcessing = new SignalProcessing(num);
-        System.out.println("(1)Динамічний діапазон сигналу : " + signalProcessing.getDynamicRange());
-        System.out.println("(2)Енергія: " + signalProcessing.getSignalEnergy());
-        System.out.println("(3)Середня потужність Рs сигналу: " + signalProcessing.getAverageTugOnSignal());
-        System.out.println("(4)Середнє значення відліків сигналу ms: " + signalProcessing.getAverageValueOfTheSignalReadings());
-        System.out.println("(5)Дисперсія значень відліків сигналу ds: " + signalProcessing.getDispersionOfProcessedSignals());
-        System.out.println("(6)Автокорреляция:");
-        for(int r = -5; r <= 5; r++)
+        System.out.println("(1) Динамічний діапазон сигналу : " + signalProcessing.getDynamicRange());
+        System.out.println("(2) Енергія: " + signalProcessing.getSignalEnergy());
+        System.out.println("(3) Середня потужність Рs сигналу: " + signalProcessing.getAverageTugOnSignal());
+        System.out.println("(4) Середнє значення відліків сигналу ms: " + signalProcessing.getAverageValueOfTheSignalReadings());
+        System.out.println("(5) Дисперсія значень відліків сигналу ds: " + signalProcessing.getDispersionOfProcessedSignals());
+        System.out.println("(6) Автокорреляция:");
+        for(int r = -4; r <= 4; r++)
         {
             System.out.println("[" + r + "]: " +
                     signalProcessing.getAutocorrelationOfADiscreteSignal(r));
         }
-        System.out.println("Інтервал кореляції: " + signalProcessing.getCorrelationInterval());
+        System.out.println("(7) Інтервал кореляції: " + signalProcessing.getCorrelationInterval());
     }
 }
 
