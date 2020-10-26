@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="vlad">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../lab4/out/artifacts/lab4_jar/lab4.jar!/com/vlad" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

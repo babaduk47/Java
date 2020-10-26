@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="482.0" prefWidth="700.0" style="-fx-background-color: #222226;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="buttonAdd" layoutX="31.0" layoutY="308.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="200.0" style="-fx-background-color: #333333;" text="Добавить утройство" textFill="#3dcc4b">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font></Button>
+      <Button fx:id="buttonOperation" disable="true" layoutX="265.0" layoutY="308.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="206.0" style="-fx-background-color: #ff724c;" text="Выполнить" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="19.0" />
+         </font></Button>
+      <Text fx:id="TextBox1" fill="#ac6b6b" layoutX="14.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="У вас нет устройст" textAlignment="CENTER" wrappingWidth="204.7999725341797">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <ListView fx:id="listBox" layoutX="14.0" layoutY="65.0" prefHeight="129.0" prefWidth="206.0" visible="false" />
+      <ListView fx:id="operationList" layoutX="265.0" layoutY="65.0" prefHeight="234.0" prefWidth="206.0" visible="false" />
+      <Text fx:id="label1" fill="#ac6b6b" layoutX="266.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Операции :" textAlignment="CENTER" visible="false" wrappingWidth="204.7999725341797">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="label2" fill="#6cab70" layoutX="496.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" visible="false" wrappingWidth="182.3999481201172">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="TextState" editable="false" layoutX="487.0" layoutY="65.0" prefHeight="234.0" prefWidth="200.0" visible="false" wrapText="true" />
+      <Button fx:id="buttonDel" layoutX="31.0" layoutY="373.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="200.0" style="-fx-background-color: #db3b3b;" text="Удалить выбранное устройство" textAlignment="CENTER" textFill="#f2f2f2" visible="false" wrapText="true">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
