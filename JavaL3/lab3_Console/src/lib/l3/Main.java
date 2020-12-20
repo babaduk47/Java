@@ -30,6 +30,7 @@ public class Main {
             System.out.println("Ошибка файла");
             return;
         }
+        num = new ArrayList<>();
         SignalProcessing signalProcessing = new SignalProcessing(num);
         System.out.println("(1) Динамічний діапазон сигналу : " + signalProcessing.getDynamicRange());
         System.out.println("(2) Енергія: " + signalProcessing.getSignalEnergy());
